@@ -1,0 +1,13 @@
+import logging
+from aiogram import Bot, Dispatcher
+from aiogram.contrib.fsm_storage.memory import MemoryStorage
+from config import BOT_TOKEN
+from .krshnaa.handlers import register_handlers
+
+logger = logging.getLogger(__name__)
+
+bot = Bot(token=BOT_TOKEN)
+storage = MemoryStorage()
+dp = Dispatcher(bot, storage=storage)
+
+__all__ = ["bot", "dp", "register_handlers"]
