@@ -11,3 +11,7 @@ DB_NAME = "NxMirror"
 # Optional: List of default Telegram channels)
 # You can add unlimited channel directy from bot)
 DEFAULT_CHANNELS = [-1001234567890, -1009876543210]
+
+# © 2025 FtKrishna. All rights reserved.
+# Channel  : https://t.me/NxMirror
+# Contact  : @FTKrshna
