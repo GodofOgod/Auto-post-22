@@ -1,3 +1,7 @@
+# © 2025 FtKrishna. All rights reserved.
+# Channel  : https://t.me/NxMirror
+# Contact  : @FTKrshna
+
 from bot.logger import setup_logger
 from motor.motor_asyncio import AsyncIOMotorClient
 from config import DB_URL
