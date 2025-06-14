@@ -1,3 +1,7 @@
+# © 2025 FtKrishna. All rights reserved.
+# Channel  : https://t.me/NxMirror
+# Content  : @FTKrshna
+
 class FtKrshna:
     HELP_TEXT = (
         "👋 *Welcome to the Bot!*\n"
