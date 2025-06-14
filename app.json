@@ -1,0 +1,40 @@
+{
+  "name": "AutoPostBot",
+  "description": "A Telegram bot to autoposting in channels .",
+  "repository": "https://github.com/ftkrishna/AutoPostBot",
+  "keywords": ["telegram", "bot", "aiogram", "heroku", "autopost", "mongodb"],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Telegram Bot Token from BotFather",
+      "required": true
+    },
+    "AUTHORIZED_USERS": {
+      "description": "Comma-separated Telegram user IDs allowed to use the bot (e.g. 123456,7891011)",
+      "required": true
+    },
+    "DB_URL": {
+      "description": "Your MongoDB connection URI",
+      "required": true
+    },
+    "DB_NAME": {
+      "description": "Database name to use in MongoDB",
+      "required": true,
+      "value": "NxMirror"
+    },
+    "DEFAULT_CHANNELS": {
+      "description": "Optional: Comma-separated channel IDs to use by default",
+      "required": false
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  }
+}
