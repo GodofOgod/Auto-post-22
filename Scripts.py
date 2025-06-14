@@ -1,6 +1,6 @@
 # © 2025 FtKrishna. All rights reserved.
 # Channel  : https://t.me/NxMirror
-# Content  : @FTKrshna
+# Contact  : @FTKrshna
 
 class FtKrshna:
     HELP_TEXT = (
