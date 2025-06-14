@@ -1,5 +1,5 @@
-BOT_TOKEN = "7726282640:AAGBYc5rzvcYDwxl6WhPlhYXHt8RPSaIN1Y"  
-AUTHORIZED_USERS = [6573328336]  
-DB_URL = "mongodb+srv://fixmayart834:FMWwXBd4JJYMs2Iv@cluster0.ltpube9.mongodb.net/?retryWrites=true&w=majority"
+BOT_TOKEN = ""  
+AUTHORIZED_USERS = [12345678]  
+DB_URL = "mongodb.srv......"
 DB_NAME = "NxMirror"
-DEFAULT_CHANNELS = []  #Optional
+DEFAULT_CHANNELS = [-100xxxx, -100xxxxx]  #Optional you can set unlimited channels from bot
