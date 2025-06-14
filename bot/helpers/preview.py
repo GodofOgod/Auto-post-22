@@ -1,3 +1,7 @@
+# © 2025 FtKrishna. All rights reserved.
+# Channel  : https://t.me/NxMirror
+# Contact  : @FTKrshna
+
 from bot.logger import setup_logger
 from aiogram import Bot
 from aiogram.types import InlineKeyboardMarkup, InputMediaPhoto, InputMediaVideo, InputMediaDocument
