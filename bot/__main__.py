@@ -1,3 +1,7 @@
+# © 2025 FtKrishna. All rights reserved.
+# Channel  : https://t.me/NxMirror
+# Contact  : @FTKrshna
+
 import asyncio
 from . import bot, dp, register_handlers
 from .logger import setup_logger
