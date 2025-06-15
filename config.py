@@ -4,10 +4,10 @@
 
 import os
 
-# Telegram Bot Token
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "default_bot_token_if_missing")
+# Telegram Bot Token from @Botfather
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7726282640:ABCD")
 
-# List of authorized user IDs
+# List of authorized user IDs (Admins)
 AUTHORIZED_USERS = list(map(int, os.environ.get("AUTHORIZED_USERS", "12345678,87654321").split(",")))
 
 # MongoDB URL and DB name
