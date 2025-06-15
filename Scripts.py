@@ -128,6 +128,8 @@ class FtKrshna:
     NO_CHANNELS_TEXT = (
         "No channels available. Use /add to add a channel or define DEFAULT_CHANNELS in config."
     )
+    
+    SELECT_CHANNEL_TEXT = "Please select a channel to edit the post."
 
 
 class Labels:
