@@ -11,9 +11,9 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN", "8208550925:AAHas2c6vHZBFdW97gWFsq1OwlCv
 AUTHORIZED_USERS = list(map(int, os.environ.get("AUTHORIZED_USERS", "1489652480").split(",")))
 
 # MongoDB URL and DB name
-DB_URL = os.environ.get("DB_URL", "mongodb+srv://username:password@cluster.mongodb.net")
-DB_NAME = os.environ.get("DB_NAME", "NxMirror")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://wemedia360:DfQbsNu54pMHTkUy@deamxbotz1.lfquley.mongodb.net/?retryWrites=true&w=majority&appName=deamxbotz1")
+DB_NAME = os.environ.get("DB_NAME", "nitin")
 
 # Optional: List of default Telegram channels)
 # You can add unlimited channel directy from bot)
-DEFAULT_CHANNELS = list(map(int, os.environ.get("DEFAULT_CHANNELS", "-1001234567890,-1009876543210").split(",")))
+DEFAULT_CHANNELS = list(map(int, os.environ.get("DEFAULT_CHANNELS", "-1002592795866").split(",")))
