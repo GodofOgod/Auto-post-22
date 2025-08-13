@@ -5,7 +5,7 @@
 import os
 
 # Telegram Bot Token from @Botfather
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "7726282640:ABCD")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8208550925:AAHas2c6vHZBFdW97gWFsq1OwlCv2_sbMLw")
 
 # List of authorized user IDs (Admins)
 AUTHORIZED_USERS = list(map(int, os.environ.get("AUTHORIZED_USERS", "12345678,87654321").split(",")))
