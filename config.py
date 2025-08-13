@@ -8,7 +8,7 @@ import os
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "8208550925:AAHas2c6vHZBFdW97gWFsq1OwlCv2_sbMLw")
 
 # List of authorized user IDs (Admins)
-AUTHORIZED_USERS = list(map(int, os.environ.get("AUTHORIZED_USERS", "1489652480").split(",")))
+AUTHORIZED_USERS = list(map(int, os.environ.get("AUTHORIZED_USERS", "1489652480","1397269319").split(",")))
 
 # MongoDB URL and DB name
 DB_URL = os.environ.get("DB_URL", "mongodb+srv://wemedia360:DfQbsNu54pMHTkUy@deamxbotz1.lfquley.mongodb.net/?retryWrites=true&w=majority&appName=deamxbotz1")
